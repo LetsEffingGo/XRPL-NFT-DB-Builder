@@ -41,7 +41,7 @@ You can either use a local MongoDB instance or a remote instance like MongoDB At
 ### 4. Run the Script
 
 ```bash
-node index.js
+node dbBuilder.js
 ```
 
 This script fetches NFTs issued by the specified XRP Ledger account and taxon, retrieves the metadata, and stores the data in MongoDB.
