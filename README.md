@@ -18,8 +18,8 @@ This project fetches Non-Fungible Tokens (NFTs) issued by a specified project on
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/nft-fetcher.git
-cd nft-fetcher
+git clone [https://github.com/LetsEffingGo/XRPL-NFT-DB-Builder.git]
+cd XRPL-NFT-DB-Builder
 ```
 
 ### 2. Install Dependencies
