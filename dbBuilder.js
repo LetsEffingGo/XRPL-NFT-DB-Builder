@@ -11,6 +11,11 @@ const dbName = "nft_db";
 const collectionName = "nft_collection";
 
 async function fetchNftMetadata(uri) {
+  // Convert IPFS URI to HTTP gateway URL if needed
+  if (uri.startsWith('ipfs://')) {
+  // Replace 'ipfs://' with the IPFS gateway URL
+    uri = uri.replace('ipfs://', 'https://ipfs.io/ipfs/');
+  }
   try {
     const response = await axios.get(uri);
     return response.data;
