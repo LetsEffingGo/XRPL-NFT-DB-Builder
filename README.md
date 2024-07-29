@@ -32,7 +32,9 @@ This command installs the required packages, including `xrpl`, `mongodb`, and `a
 
 ### 3. Configure the Environment
 
-Ensure you have a MongoDB instance running. You can either use a local MongoDB instance or a remote instance like MongoDB Atlas.
+Ensure you have a MongoDB instance running. 
+```sudo systemctl start mongod```
+You can either use a local MongoDB instance or a remote instance like MongoDB Atlas.
 
 ### 4. Run the Script
 
