@@ -1,7 +1,3 @@
-Here's a README template for your project that fetches NFTs from the XRP Ledger and stores them in a MongoDB collection:
-
----
-
 # NFT Fetcher and MongoDB Storage
 
 This project fetches Non-Fungible Tokens (NFTs) issued by a specified project on the XRP Ledger and stores them in a MongoDB collection. The stored data includes the NFTokenID, owner address, URI pointing to the metadata file, and the contents of the metadata file.
